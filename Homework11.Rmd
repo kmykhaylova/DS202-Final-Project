@@ -1,0 +1,13 @@
+---
+title: "Homework 11"
+author: "Kateryna Mykhaylova"
+date: "5/01/2022"
+output: html_document
+---
+Group Members: Kateryna Mykhaylova <br>
+Link to get the used dataset: [kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows) <br>
+Git Repo: [link](https://github.com/kmykhaylova/DS202-Final-Project) <br>
+
+Overview: The data set I chose for the final project is Netflix movies and TV shows. Netflix is one of the most popular streaming platforms for over 200 Million downloads as of 2021 by subscribers who enjoy watching movies from all over the world. This data set uses information from Netflix that is relevant in finding useful data for it. The variable used in this dataset are show_id, movie or tv show type, title, director, cast, country of production, date added on Netflix, release date, tv rating, and duration. These variable will provide interesting anaylis's of particular questions. Some of the interesting questions to look into from this dataset are which contents are available in which countries and see the networking of the cast or directors in different movies and tv shows. <br>
+
+Cleaning steps: The main cleaning step that will need to be done is get rid of the null values, especially for the directors and cast columns since these null values will not answer any questions relating directors/cast with movies. Cleaning for the date column will also need to be done since date has to be numeric data type and not string to be able to compare variables numeric vs numeric or numeric vs categorical. Along these lines, the data types for other variables that have numbers in them will have to be strategically changed depending on the information they provide. It might be smart to also categorize tv shows and movies separately to be able to read their respective variables easier. 
